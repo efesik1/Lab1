@@ -8,6 +8,6 @@ while True:
                 sum += digit
             num //= 10
         print("Сумма четных цифр: ", sum)
-        break  
+        break
     except ValueError:
         print("Ошибка: Введено нечисловое значение. Пожалуйста, введите число.")
